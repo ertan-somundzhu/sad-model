@@ -9,6 +9,7 @@ from torchsummary import summary
 
 from typing import Optional, List, Callable
 
+from tqdm import tqdm
 
 class trainAndTestModel:
 
