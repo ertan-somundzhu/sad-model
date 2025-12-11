@@ -1,6 +1,7 @@
 # sad-model
-
 This is my pet project which aims to create a SAD model from scratch.
+
+
 
 What did i do:
 1) Wrote a custom class that converts a raw audio signal into a log mel-spectrogram using PyTorch so that it could leverage GPUs.
