@@ -5,8 +5,8 @@ This is my pet project which aims to create a SAD model from scratch.
 
 What did i do:
 1) Wrote a custom class that converts a raw audio signal into a log mel-spectrogram using PyTorch so that it could leverage GPUs.
-2) Processed an exeisting dataset, took a sample from it, as i don't a lot of compute (everything was on Google Colab's GPUs and the environment would regularly crash when attempitng to load and process the entire dataset), and converted it into a log-mel spectrogram using my custom class.
-3) Succesfully rained a GRU based model to detect speech activity.
+2) Processed an exeisting dataset, took a sample from it, as i don't have a lot of compute (everything was on Google Colab's GPUs and the environment would regularly crash when attempitng to load and process the entire dataset), and converted it into a log-mel spectrogram using my custom class.
+3) Succesfully trained a GRU based model to detect speech activity.
 
 Here are the metrics on the test set:
 | Metric    | Value                  |
